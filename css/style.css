@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    height: 70px;
+    margin-left: auto;
+    background: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+    background: rgb(58, 57, 57, 0.75);
+    backdrop-filter: blur(50px);
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back {
+    margin-left: 40px;
+}
+
+i {
+    border: solid #ffffff75;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+}
+
+.right {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.left {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.arrow-down {
+    border: 7px solid transparent;
+    border-top: 7px solid #ffffff;
+    padding: 0px;
+    transform: rotate(0deg);
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.log {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(50px);
+    height: 40px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.img-user {
+    position: relative;
+    left: -10px;
+    /* margin: -px; */
+    /* margin-right: 0px; */
+    background: rgb(162, 157, 157);
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.login {
+    margin-left: auto;
+}
+
+img {
+    width: 20px;
+}
+
+nav {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width: 20%;
+    height: 100%;
+}
+
+ul {
+
+    margin: 20px;
+    list-style: none;
+}
+
+.logo_img {
+    width: 42px;
+    margin: 10px;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    margin: 10px;
+}
+
+a {
+    display: flex;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+p {
+    margin: 10px 10px 0px 0px;
+}
+
+.fa {
+    margin: 20px 10px 0px 0px;
+    width: 32px;
+}
+
+.media-text {
+    width: auto;
+}
+
+.like-sound-text {
+    width: auto;
+}
+
+.item {
+    width: auto;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.item-line {
+    border: #414141 solid 1px;
+
+    width: 80%;
+
+}
+
+.item-text-playlist-name {
+    margin: 20px 0px 0px 5px;
+    width: 100%;
+}
+
+.name-playlist {
+    color: #666464;
+}
+
+.content {
+    margin-left: auto;
+    flex: 1 0 auto;
+    height: 100%;
+    width: 80%;
+    background: #414141;
+}
+
+.img-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: rgb(57, 57, 57);
+    /* border: 5px solid #00000091 ; */
+    box-shadow: 0px 0px 50px -10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-foto {
+    width: 60px;
+}
+
+footer {
+    position: absolute;
+    background: rgb(105, 96, 96);
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.profile {
+    padding: 30px;
+    display: flex;
+}
+
+.lisa-type {
+    display: flex;
+}
+
+.lisa {
+    margin-left: 25px;
+    color: rgb(255, 243, 243);
+    list-style-type: disc;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.active {
+    margin-left: -20px;
+    list-style-type: none;
+}
+
+.profile-description {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.profile-name {
+    font-size: 48px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.full-description {
+    margin-top: auto;
+    margin-left: 20px;
+}
+
+.circle {
+    width: 0.45rem;
+    height: 0.45rem;
+    background:#535353;
+    border-radius: 100%;
+    margin: 20px 0px 20px 10px;
+
+}
+
+.other {
+    width: 100px;
+    display: flex;
+    margin: 0px 10px 0px 20px;
+    padding-top: 20px;
+}
+
+.content-desc {
+    background:#252525;
+}
+
+.info {
+    display: flex;
+}
+
+.fa-me {
+    /* margin-left: auto; */
+    margin-top: 0px;
+}
+
+.fa-author {
+    margin-right: auto;
+    padding: 0px 30px;
+}
+
+.item-author {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-me {
+    font-size: 20px;
+    color: #535353;
+    padding: 0px 30px;
+}
+
+.view {
+    margin-top: 8px;
+    margin-left: auto;
+
+}
+
+.item-view {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b3b3b3;
+}
+
+.card {
+    text-align: center;
+    width: 130px;
+    height: 200px;
+    background: rgb(43, 42, 42);
+    border-radius: 15px;
+    box-shadow: 0 0 30px -5px;
+    margin: 40px 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.circle-img-author {
+    width: 100px;
+    height: 100px;
+    background: rgb(87, 86, 86);
+    border-radius: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    box-shadow: 0 0 20px 1px;
+}
+
+.name-author {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 10px 0px;
+}
+
+.item-author-text {
+    font-size: 12px;
+    color: #747373;
+}
+
+.play {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: green;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-left: 60px;
+    margin-top: -30px;
+    display: none;
+}
